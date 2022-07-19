@@ -5,10 +5,30 @@
 
 }
 
+body{
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    background-color: #230312;
+    height: auto;
+    min-width: 1000px;
+}
+
+.header{
+height: 80px;
+background-color: #1D000D;
+}
+
 .hcontent{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: blueviolet;
+   
+    height: 100%;
+    justify-items: center;
+    padding-top: 20px;
+
 }
 
 .menu ul{
@@ -20,5 +40,93 @@
 .menu ul a{
     text-decoration: none;
     color: #ffffff;
+    padding: 8px;
     
+    
+}
+
+.menu ul a:hover{
+    background-color: #C52D2F;
+    
+}
+input[id=search1]{
+    height: 35px;
+    width: 120px;
+    position: absolute;
+    top: -8px;
+  
+
+}
+li{
+    position: relative;
+}
+.fa-facebook-square{
+    background-color: #ffffff;
+    background-size: cover;
+    color: #305891;
+   
+    
+}
+.fa-twitter-square{
+    background-color: #ffffff;
+    background-size: cover;
+    color: #78cdf0;
+    
+}
+.home{
+    background-color: #C52D2F;
+}
+
+.container{
+   
+    height: auto;
+    min-height: 100px;
+    background-color: #230312;
+}
+
+.welcome{
+    background-color: #230312;
+    height: 300px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    border-top: 3px solid #ffffff;
+    border-bottom: 3px solid #ffffff;
+}
+
+.patreon{
+    height: 60px;
+    width: 180px;
+   
+}
+.json{
+    text-decoration: none;
+    color: #746f77;
+
+}
+.json:hover{
+    color: #D59A07;
+}
+.search2-container{
+   
+    border-bottom: 3px solid #ffffff;
+    height: 120px;
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+}
+
+input[id=search2]{
+height: 30px;
+width: 240px;
+border-radius: 5px;
+}
+button{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+   
+
+   
 }
