@@ -23,7 +23,7 @@ btn.addEventListener("click",e=>{
 const search=(value)=>{
     cardContainer.innerHTML="";
    const searched= dataArr.filter(item=>item.strDrink.toLowerCase().includes(value.toLowerCase()));
-   console.log(searched);
+   
    searched.map(item=>mapped(item.strDrink,item.strDrinkThumb))
 
 }
