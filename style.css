@@ -130,3 +130,36 @@ button{
 
    
 }
+
+.card1{
+  
+    height: 250px;
+    width: 300px;
+    position: relative;
+    
+}
+.card-container{
+    min-height: 400px;
+    height: auto;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 50px;
+    padding-top: 30px;
+    border-bottom: 3px solid #ffffff;
+   
+}
+.label{
+    position: absolute;
+    color: #ffffff;
+    background-color: #000000;
+    width: 300px;
+    height: 35px;
+    margin-top: 89%;
+    text-align: center;
+}
+
+#cocktail{
+    width: 100%;
+    height: auto;
+}
